@@ -1,0 +1,10 @@
+{
+  "name": "ecommerce-ui-kit",
+  "version": "1.0.0",
+  "description": "E-Commerce UI Kit - Git Workflow practice project",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "license": "MIT"
+}

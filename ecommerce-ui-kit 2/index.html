@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI Kit Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#">🛍️ UI Kit Shop</a>
+    <nav class="site-nav">
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="cart-btn" class="cart-btn">🛒 <span id="cart-count">0</span></button>
+  </header>
+  <main id="app"></main>
+
+  <footer id="contact" class="site-footer">
+    <p>© 2026 UI Kit Shop. All rights reserved.</p>
+    <p>Contact: support@uikitshop.com</p>
+    <p>Your cart is saved locally in this browser.</p>
+  </footer>
+
+  <aside id="cart-panel" class="cart-panel hidden">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button id="close-cart" aria-label="Close cart">✕</button>
+    </div>
+    <ul id="cart-items"></ul>
+    <p class="cart-total">Total: <span id="cart-total">$0.00</span></p>
+    <button id="clear-cart">Clear cart</button>
+  </aside>
+
+  <script src="app.js"></script>
+  <script src="cart.js"></script>
+</body>
+</html>
