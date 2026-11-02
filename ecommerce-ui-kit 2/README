@@ -1,0 +1,54 @@
+E-Commerce UI Kit — README
+პროექტის მიმოხილვა
+პროექტი წარმოადგენს E-Commerce პლატფორმის UI Kit-ის სამუშაოს. მიზანი იყო პროექტის მომზადება,
+GitHub-ზე ატვირთვა და Git-ის ბრენჩებისა და Pull Request-ის გამოყენებით გუნდურ სამუშაო პროცესში
+მონაწილეობა.
+გამოყენებული ტექნოლოგიები
+HTML • CSS • JavaScript • Git • GitHub
+პროექტის სტრუქტურა
+E-commerce-platform/
+└── ecommerce-ui-kit/
+├── index.html
+├── app.js
+├── cart.css
+├── cart.js
+├── navbar.css
+├── search.css
+├── search.js
+└── product-card.html
+ჩემი შესრულებული სამუშაო
+• მოვამზადე E-Commerce UI Kit პროექტი და მისი ფაილები.
+• მოვაწესრიგე და განვაახლე პროექტის ფაილები.
+• მოვამზადე მომხმარებლის ინტერფეისი.
+• პროექტი ავტვირთე GitHub-ზე ცალკე feature ბრენჩზე.
+• შევქმენი Pull Request ცვლილებების განხილვისთვის.
+Git Workflow — ეტაპობრივად
+1. ბრენჩზე გადასვლა
+git switch feature/ecommerce-ui-clean
+2. მიმდინარე სტატუსისა და ბრენჩის შემოწმება
+git status
+git branch
+3. ფაილების დამატება Commit-ისთვის
+git add .
+4. ცვლილებების Commit
+git commit -m "Add ecommerce UI"
+5. ბრენჩის GitHub-ზე ატვირთვა
+git push -u origin feature/ecommerce-ui-clean
+6. Pull Request-ის შექმნა
+ფაილების ატვირთვის შემდეგ GitHub-ზე შევქმენი Pull Request, რათა ცვლილებები განხილულიყო.
+Base branch: main
+Compare branch: feature/ecommerce-ui-clean
+7. Pull Request-ის განხილვა და გაერთიანება
+პროექტი მოვამზადე და ჩემი ცვლილებები ავტვირთე. Pull Request განიხილა და main ბრენჩში გააერთიანა
+გუნდის სხვა წევრმა.
+Commit-ის ინფორმაცია
+ბრენჩი: feature/ecommerce-ui-clean
+Commit: b1dbaaf
+Commit-ის შეტყობინება: Add ecommerce UI
+Commit-ის ნახვა GitHub-ზე
+GitHub Repository
+E-Commerce-platform Repository
+შეჯამება
+ამ სამუშაოს ფარგლებში მივიღე პრაქტიკული გამოცდილება Git-ისა და GitHub-ის გამოყენებაში: პროექტის
+მომზადება, feature ბრენჩზე მუშაობა, ცვლილებების Commit, GitHub-ზე ატვირთვა და Pull Request-ის შექმნა.
+ჩემი Pull Request განიხილა და main ბრენჩში გააერთიანა გუნდის სხვა წევრმა
