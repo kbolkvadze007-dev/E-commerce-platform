@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #333333;
+  --primary-color: #2563eb;
   --font-family: Arial, sans-serif;
 }
 
@@ -7,4 +7,19 @@ body {
   font-family: var(--font-family);
   margin: 0;
   padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 240px;
+}
+
+.btn-add {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
 }
